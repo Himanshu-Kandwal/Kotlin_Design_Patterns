@@ -1,6 +1,4 @@
-package creational
-
-import kotlin.concurrent.thread
+package creational.singleton
 
 fun main() {
 

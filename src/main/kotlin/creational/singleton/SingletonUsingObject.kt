@@ -1,4 +1,4 @@
-package org.hk.creational
+package creational.singleton
 
 /*
 Singleton - Only one object as long as app lives.
