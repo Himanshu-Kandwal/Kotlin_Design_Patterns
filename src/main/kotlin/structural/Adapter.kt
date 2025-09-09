@@ -27,8 +27,9 @@ class USBToUSBCAdapter(private val usbCharger: USBCharger) :
     Charger { //takes adaptee --existing type which we already have
 
     override fun charge() {
-        println("USB to USB-C converted")
+        println("USB to USB-C converting")
         usbCharger.chargeWithUSB() // Calls ADAPTEE's method so client calling charge() is indirectly using adaptee's charge method
+        println("Charge successful using USB")
     }
 }
 
